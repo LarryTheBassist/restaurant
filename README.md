@@ -1,0 +1,1 @@
+This is a basic restaurant page, using node and webpack. Page is to be created using Javascript.
