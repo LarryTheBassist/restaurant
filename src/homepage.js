@@ -13,7 +13,7 @@ function setUpHomepage (){
 
     //set up text
     const textPara = document.createElement("p");
-    textPara.textContent = "This restaurant is honestly so fucking good. I mean, I honestly don't know what more to tell you. Established in 2015, we are desperately trying to survive the 'rona."
+    textPara.textContent = "This restaurant is honestly so good. I mean, I honestly don't know what more to tell you. Established in 2015."
     content.appendChild(textPara);
 }
 
