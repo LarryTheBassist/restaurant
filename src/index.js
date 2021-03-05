@@ -1,5 +1,6 @@
 import {setUpHomepage} from "./homepage";
 import {setUpMenu} from "./menu";
+import {setUpContact} from "./contact";
 
 const content = document.querySelector("#content");
 
@@ -16,6 +17,13 @@ menuButton.addEventListener("click", ()=> {
 })
 
 const contactButton = document.querySelector("#contact");
+contactButton.addEventListener("click", () => {
+    content.innerHTML = "";
+    setUpContact();
+})
 
+document.querySelector("#navBar").addEventListener("click", (e)=> {
+    e.target.backgroundColor = "green";
+})
 
-setUpHomepage(content);
+setUpHomepage();
