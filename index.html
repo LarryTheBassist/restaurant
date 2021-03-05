@@ -40,12 +40,19 @@
             padding-top: 80px;
         }
         #navBar {
-            display: flex;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: black;
         }
         #navBar div {
             height: 40px;
-            background-color: white;
-            justify-content: center;
+            
+            color: white;
+            text-align: center;
+            
+        }
+        #navBar div:hover {
+            background-color: green;
         }
         .menuItem p {
             padding-top: 0px;
