@@ -1,4 +1,6 @@
-function setUpHomepage (content){
+const content = document.querySelector("#content");
+
+function setUpHomepage (){
     //create header
     const headline = document.createElement("h1");
     headline.textContent = "Larry's Restaurant";
